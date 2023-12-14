@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Exercise solution</title>
+</head>
+<body>
+  <form action="test.py" method="post">
+    <input type="number" hidden>
+    <label for="subj">Subject</label>
+    <br>
+    <input id="subj" type="text" placeholder="Write Your subject Here" name="subject">
+    <hr>
+    <label for="username">username</label>
+    <br>
+    <input id="username" type="text" required placeholder="Enter Your Username" name="username">
+    <hr>
+    <label for="email">Your Email</label>
+    <br>
+    <input id="email" type="email" required placeholder="Enter Your Email" name="email">
+    <hr>
+    <label for="num">Your Number</label>
+    <br>
+    <input id="num" type="number" placeholder="Write Your Phone here" name="num">
+    <hr>
+    <label for="pass">password</label>
+    <br>
+    <input id="pass" type="password" placeholder="Write complex password" name="pass">
+    <br>
+    <input type="submit" value="save">
+    <input type="reset" value="empty form">
+  </form>
+</body>
+</html>
