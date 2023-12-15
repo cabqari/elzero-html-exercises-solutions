@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Exercises  solutions</title>
+</head>
+<body>
+  <form action="" method="get">
+    <label for="token"></label>
+    <input 
+    id="token" 
+    type="text" 
+    name="Token" 
+    hidden 
+    value="b92f1fc2fce391ad7af633723afd3055">
+
+    <div>
+        <label for="username">Username</label>
+        <input 
+        id="username" 
+        type="text" 
+        name="Username" 
+        autofocus
+        minlength="5"
+        maxlength="20"
+        required>
+    </div>
+
+    <br>
+    <div>
+      <label for="email">Email</label>
+      <input 
+      id="email" 
+      type="email" 
+      name="Email"     
+      readonly
+      value="o@o.com">
+    </div>
+
+    <br>
+    <div>
+      <input type="reset" value="Empty">
+      <input type="submit" value="Send">
+    </div>
+  </form>
+</body>
+</html>

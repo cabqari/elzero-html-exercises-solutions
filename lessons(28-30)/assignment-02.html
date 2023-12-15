@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Exercises solutions</title>
+</head>
+<body>
+  <form action="" method="get">
+    <label for="token"></label>
+    <input 
+    id="token" 
+    type="text" 
+    name="Token" 
+    hidden 
+    value="b92f1fc2fce391ad7af633723afd3055">
+
+    <div>
+        <label for="username">Username</label>
+        <input 
+        id="username" 
+        type="text" 
+        name="Username" 
+        autofocus
+        minlength="5"
+        maxlength="20"
+        required>
+    </div>
+
+    <br>
+    <div>
+      <label for="email">Email</label>
+      <input 
+      id="email" 
+      type="email" 
+      name="Email"     
+      readonly
+      value="o@o.com">
+    </div>
+
+    <hr>
+
+    <div>
+      <input type="checkbox" id="ps" name="skills" value="Promlem Solving">
+      <label for="ps">Problem Solving</label>
+    </div>
+    <div>
+      <input type="checkbox" id="ps" name="skills" checked value="Logical Thinking">
+      <label for="ps">Logical Thinking</label>
+    </div>
+    <div>
+      <input type="checkbox" id="as" name="skills" value="Advanced Search">
+      <label for="as">Advanced Search</label>
+    </div>
+    <div>
+      <input type="checkbox" id="an" name="skills" value="Analysis">
+      <label for="an">Analysis</label>
+    </div>
+    <div>
+      <input type="checkbox" id="pl" name="skills" value="Planning">
+      <label for="pl">Planning</label>
+    </div>
+
+      <hr>
+
+      <div>
+        <input type="radio" name="Job" id="fe" value="Front-end Developer">
+        <label for="fe">Front-End Developer</label>
+      </div>
+      <div>
+        <input type="radio" name="Job" id="bd" checked value="Backend Developer">
+        <label for="bd">Back-End Developer</label>
+      </div>
+      <div>
+        <input type="radio" name="Job" id="ba" value="Business Analyst">
+        <label for="ba">Business Analyst</label>
+      </div>
+      <div>
+        <input type="radio" name="Job" id="pm" value="Project Manager">
+        <label for="pm">Project Manager</label>
+      </div>
+      <div>
+        <input type="radio" name="Job" id="sm" value="Scrum Master">
+        <label for="sm"> Scrum Master</label>
+      </div>
+    <br>
+    <div>
+      <input type="reset" value="Empty">
+      <input type="submit" value="Send">
+    </div>
+  </form>
+</body>
+</html>
